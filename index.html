@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Praktikum 6 UI/UX Riefky Gus Maula - 0110226016</h1>
+
+    <script>
+        const name = " Riefky Gus Maula";
+        let umur = 18;
+        let nilai = 100;
+        let aktif = true;
+
+        console.log("name", name);
+        console.log("umur", umur);
+        console.log("nilai", nilai);
+        console.log("status", aktif);
+        console.log("typenilai", typeof nilai);
+
+        let nilaiTugas = 90;
+        let nilaiUTS = 85;
+        let nilaiUAS = 80;
+        let nilaiAkhir = (nilaiTugas * 0.30) + (nilaiUTS * 0.30) + (nilaiUAS * 0.40);
+
+        console.log("nilai akhir", nilaiAkhir);
+        console.log("Lulus:", nilaiAkhir >=70);
+
+        const nilai2 = 80;
+        let statusKelulusan;
+        
+        if (nilaiAkhir >= 60){
+            statusKelulusan = "Lulus";
+        } else {
+            statusKelulusan = "Tidak Lulus";
+        }   
+        console.log("Status Kelulusan:", statusKelulusan);
+    </script>
+</body>
+</html>
